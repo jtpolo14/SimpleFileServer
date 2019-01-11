@@ -1,0 +1,31 @@
+
+<!-- saved from url=(0040)http://192.168.1.115:3000/repo/home.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head><body>{{define "title"}}OSC REPO v1.0{{end}}
+
+{{define "body"}}
+<div class="jumbotron">
+  <h1>OSC File Repo</h1>
+  <div class="row">
+  <div class="col">
+  <div class="card">
+  <div class="card-header">File Uploader</div>
+  <div class="card-body">
+    <input type="file" id="fileinputMulti" multiple="multiple">
+  </div> 
+  <div class="card-footer">Files uploaded here will be available to the public!</div>
+</div>
+  </div>
+  <div class="col">
+  <div class="card">
+  <div class="card-header">File Viewer</div>
+  <div class="card-body">
+    <button onclick="browsePage()" type="button" class="btn btn-secondary">View Files</button>
+  </div> 
+  <div class="card-footer">Link to the main repo</div>
+</div>
+  </div>
+</div>
+</div>
+{{end}}
+</body></html>
